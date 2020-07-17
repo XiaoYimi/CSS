@@ -1,0 +1,11 @@
+html, body { margin: 0; padding: 0; }
+body {
+  background-image: linear-gradient(-45deg, #EA2027, #FFC312, #C4E538, #12CBC4);
+  background-size: 400%; /* 取决于色彩个数 4 => 400 */
+  animation: bglinergradient 10s infinite linear;
+}
+
+@keyframes bglinergradient {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
